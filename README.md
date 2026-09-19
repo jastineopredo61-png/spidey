@@ -1,36 +1,10 @@
 # RetroLens 🖐️✨
 
-Portal filter real-time pakai gerakan tangan, dibikin pake Python + MediaPipe.
+A real-time hand-gesture portal filter, built with Python + MediaPipe.
 
-Bentangin dua tangan buat buka portal, area di dalamnya kena filter (dual-tone, thermal, sketch, glitch, dll). Ganti filter tinggal pinch jempol-kelingking.
-
----
-
-## 🇮🇩 Indonesia
-
-**Install** (Python 3.8–3.11):
-```bash
-pip install -r requirements.txt
-```
-> ⚠️ Pengguna Apple Silicon: jangan upgrade mediapipe dari versi yang di-pin (`0.10.9`) — versi baru ada bug di chip ARM Mac.
-
-**Jalanin:**
-```bash
-python3 Retrolens.py   # Mac/Linux
-python Retrolens.py    # Windows
-```
-
-**Kontrol:**
-- Bentangin 2 tangan → buka portal
-- Pinch jempol-kelingking → ganti filter
-- Kepal 2 tangan / tombol `C` → toggle mode 2D/3D
-- `N`/`P` → filter berikutnya/sebelumnya, `S` → screenshot, `Q` → keluar
-
-Dibikin sambil belajar OpenCV + MediaPipe.
+Spread both hands to open a portal — the area inside gets filtered (dual-tone, thermal, sketch, glitch, etc). Pinch your thumb and pinky to switch filters.
 
 ---
-
-## 🇬🇧 English
 
 **Install** (Python 3.8–3.11):
 ```bash
